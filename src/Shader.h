@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #include <OpenGL/OpenGL.h>
 
-#import "Contstants.h"
+#import "Constants.h"
 
 @interface Shader : NSObject {
 	

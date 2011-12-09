@@ -134,7 +134,7 @@
 }
 
 - (GLint) getAttribLocation: (NSString*) name {
-	GLint ind= glGetAttribLocation(program, [name UTF8String]);
+	GLint ind = glGetAttribLocation(program, [name UTF8String]);
 	NSLog(@"program = %i, index = %i, for %s", program, ind, [name UTF8String]);
 	return ind;
 }

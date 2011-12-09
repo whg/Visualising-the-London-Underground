@@ -15,7 +15,7 @@
 - (id) init {
 
 	if (self = [super init]) {
-//		NSLog(@"%s", glGetString(GL_VERSION));
+
 		shader = [[Shader alloc] initWithShaderName:@"s"];
 		//enables
 		glEnableClientState(GL_VERTEX_ARRAY);
@@ -24,38 +24,24 @@
 
 		nvertices = [data lineno];
 		NSLog(@"%i", (int) nvertices);
-//		nvertices*=2;
 		GLsizeiptr svertices = nvertices * 2 * sizeof(GLfloat);
 		
-		//FIRST: set the attribute pointer...
+		//FIRST: set the attribute pointers...
 		//it doesn't work if you do this after setting up the VBOs
 		
+		GLint index = [shader getAttribLocation:@"starttime"];
+		glEnableVertexAttribArray(index);
+		glVertexAttribPointer(index, 3, GL_FLOAT, GL_FALSE, 0, starttimes);
+		
 		for (int i = 0; i < NUM_VDATA; i++) {
-			GLint index = [shader getAttribLocation: [NSString stringWithFormat:@"pos%i",i]];
+			index = [shader getAttribLocation: [NSString stringWithFormat:@"pos%i",i]];
 			glEnableVertexAttribArray(index);
 			glVertexAttribPointer(index, 3, GL_FLOAT, GL_FALSE, 0, vdata[i]);
 		}
-
 		
 		
 		//generate, bind, allocate and set VBOs
 		glGenBuffers(BUFFER_SIZE, buffers);
-		
-//		GLubyte cdata[nvertices*4];
-//		GLsizeiptr csize = nvertices * 4 * sizeof(GLubyte);
-//		for (int i = 0; i < nvertices*4; i++) {
-//			if ((i+1) % 4 == 0) {
-//				cdata[i] = 20;
-//				continue;
-//			}
-//			else if ((i+2) % 4 == 0) {
-//				cdata[i] = 120;
-//			}
-//			else {
-//				cdata[i] = 255;
-//			}
-//
-//		}
 		GLsizeiptr csize = nvertices * 4 * sizeof(GLubyte);
 		
 		glBindBuffer(GL_ARRAY_BUFFER, buffers[COLOUR]);
@@ -68,15 +54,12 @@
 
 		
 		
-		
 		time = 1000;
-	//	odate = [NSDate date];
 		old = [NSDate timeIntervalSinceReferenceDate];
 					 
 
 		font = [[Font alloc] init];
-		
-		
+
 	}
 	
 	return self;
@@ -86,11 +69,16 @@
 	
 	glViewport(0, 0, (GLsizei) bounds.size.width, (GLsizei) bounds.size.height);
 	
-	glClearColor(0, 0, 0, 1);
-//	glColor3f(1, 1, 1);
+	glClearColor(1,1,1, 1);	
+	glClear(GL_COLOR_BUFFER_BIT);
+
 	
-	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	
+	GLubyte color[4];
+	for (int i = 0; i < 11; i++) {
+		[data lineColour:i+1 :color];
+		glColor4ubv(color);
+		glRectd(i*20, 0, i*20+20, 20);
+	}
 	
 	glPushMatrix();
 	
@@ -111,7 +99,7 @@
 //	
 //	glEnd();
 
-	glDrawArrays(GL_POINTS, 0, nvertices/2);
+	glDrawArrays(GL_POINTS, 0, nvertices);
 //	glDrawElements(GL_POINTS, VertexCount, GL_FLOAT, verticeso)
 	
 //	glPushMatrix();
@@ -135,9 +123,15 @@
 		NSTimeInterval fps = 1.0/(new - old);
 		old = new;
 		NSString *fpss = [NSString	stringWithFormat:@"%.2f", time];
+		glColor4f(0,0,0, 1);
 		[font printString:fpss :NSMakePoint(bounds.size.width-70, bounds.size.height)];
 	}
 	glPopMatrix();
+}
+
+- (void) restart {
+
+	time = 1000;
 }
 
 - (void) release {

@@ -89,7 +89,7 @@ static CVReturn myDisplayLinkCallback(CVDisplayLinkRef displayLink, const CVTime
 //	glFrustum(0, width, 0, height, width/100.0f, width*10.0f);
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
-	gluPerspective(0, width/(float)height, width/100.0f, width*10.0f);
+//	gluPerspective(0, width/(float)height, width/100.0f, width*10.0f);
 
 //	gluLookAt(width/2, height/2, -100, width/2, height/2, 0, 0, 1, 0);
 //	glScalef(1, -1, 1);
@@ -105,7 +105,10 @@ static CVReturn myDisplayLinkCallback(CVDisplayLinkRef displayLink, const CVTime
 //	glEnable(GL_LIGHTING);
 //	glEnable(GL_LIGHT0);
 //	glEnable(GL_LIGHT1);
-	glEnable(GL_DEPTH_TEST);
+
+	glEnable(GL_ALPHA_TEST);
+	glEnable (GL_BLEND);
+	glBlendFunc (GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 	
 	NSLog(@"reshape:%i %i", width, height);
 	
@@ -140,6 +143,14 @@ static CVReturn myDisplayLinkCallback(CVDisplayLinkRef displayLink, const CVTime
 	[[self openGLContext] flushBuffer];
 }
 
+- (BOOL) acceptsFirstResponder {
+	return YES;
+}
+
+- (void) keyDown:(NSEvent *)theEvent {
+
+	[drawer restart];
+}
 
 - (void) dealloc {
 	[drawer release];

@@ -1,7 +1,7 @@
 TTube
 v7
 r0
-t345085056.972500
+t345128862.918414
 cCheck dependencies
 cProcessInfoPlistFile /Users/WHG/Desktop/Tube/build/Debug/Tube.app/Contents/Info.plist Tube-Info.plist
 cCopyStringsFile /Users/WHG/Desktop/Tube/build/Debug/Tube.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -9,10 +9,10 @@ cCompileXIB /Users/WHG/Desktop/Tube/English.lproj/MainMenu.xib
 cProcessPCH /var/folders/iZ/iZM13BqrE6GqOav1wjlcUE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tube_Prefix-ckutjcoakcvwybgcptsdzketywho/Tube_Prefix.pch.gch src/Tube_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/main.o /Users/WHG/Desktop/Tube/src/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/OpenGLView.o /Users/WHG/Desktop/Tube/src/OpenGLView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Drawer.o /Users/WHG/Desktop/Tube/Drawer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Shader.o /Users/WHG/Desktop/Tube/Shader.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Font.o /Users/WHG/Desktop/Tube/Font.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Data.o /Users/WHG/Desktop/Tube/Data.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Drawer.o /Users/WHG/Desktop/Tube/src/Drawer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Shader.o /Users/WHG/Desktop/Tube/src/Shader.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Font.o /Users/WHG/Desktop/Tube/src/Font.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Data.o /Users/WHG/Desktop/Tube/src/Data.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/WHG/Desktop/Tube/build/Debug/Tube.app/Contents/MacOS/Tube normal x86_64
 cTouch /Users/WHG/Desktop/Tube/build/Debug/Tube.app
 
@@ -281,18 +281,17 @@ t1321923672
 s346
 
 N/Users/WHG/Desktop/Tube/Data.h
-c000000004EE11A490000000000000334
-t1323375177
-s820
+c000000004EE15DB8000000000000027D
+t1323392440
+s637
 i<Cocoa/Cocoa.h>
 i<OpenGL/OpenGL.h>
 i"Contstants.h"
 
 N/Users/WHG/Desktop/Tube/Data.m
-c000000004EE15C3E00000000000014D3
-t1323392062
-s5331
-i"Data.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/WHG/Desktop/Tube/Drawer.h
 c000000004ECB0C16000000000000020C
@@ -306,10 +305,9 @@ i"Font.h"
 i"Data.h"
 
 N/Users/WHG/Desktop/Tube/Drawer.m
-c000000004EE15C9F0000000000000C8D
-t1323392159
-s3213
-i"Drawer.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/WHG/Desktop/Tube/English.lproj/InfoPlist.strings
 c000000004EB85AAC000000000000002D
@@ -329,10 +327,9 @@ i<Cocoa/Cocoa.h>
 i<OpenGL/OpenGL.h>
 
 N/Users/WHG/Desktop/Tube/Font.m
-c000000004ECA9D5200000000000022DC
-t1321901394
-s8924
-i"Font.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/WHG/Desktop/Tube/Shader.h
 c000000004EC814C60000000000000245
@@ -343,13 +340,12 @@ i<OpenGL/OpenGL.h>
 i"Contstants.h"
 
 N/Users/WHG/Desktop/Tube/Shader.m
-c000000004EC9BAAA0000000000000CB0
-t1321843370
-s3248
-i"Shader.h"
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/WHG/Desktop/Tube/build/Debug/Tube.app
-t1323392159
+t1323436062
 s102
 
 N/Users/WHG/Desktop/Tube/build/Debug/Tube.app/Contents/Info.plist
@@ -357,8 +353,8 @@ t1321895496
 s877
 
 N/Users/WHG/Desktop/Tube/build/Debug/Tube.app/Contents/MacOS/Tube
-t1323392159
-s41992
+t1323436062
+s43960
 
 N/Users/WHG/Desktop/Tube/build/Debug/Tube.app/Contents/PkgInfo
 t1321895496
@@ -373,24 +369,24 @@ t1321895500
 s34227
 
 N/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Data.o
-t1323392081
-s18944
+t1323435928
+s34588
 
 N/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Drawer.o
-t1323392159
-s17972
+t1323436062
+s26364
 
 N/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Font.o
-t1323166712
+t1323393637
 s12728
 
 N/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/OpenGLView.o
-t1323375189
-s27996
+t1323435863
+s32288
 
 N/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Shader.o
-t1323166712
-s25428
+t1323432185
+s25436
 
 N/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Tube.LinkFileList
 c000000004EDDEBF10000000000000214
@@ -401,23 +397,86 @@ N/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64
 t1323166712
 s4968
 
+N/Users/WHG/Desktop/Tube/src/Constants.h
+c000000004EE1F8F7000000000000018F
+t1323432183
+s399
+
+N/Users/WHG/Desktop/Tube/src/Data.h
+c000000004EE1F3090000000000000392
+t1323430665
+s914
+i<Cocoa/Cocoa.h>
+i<OpenGL/OpenGL.h>
+i"Constants.h"
+
+N/Users/WHG/Desktop/Tube/src/Data.m
+c000000004EE207970000000000001B73
+t1323435927
+s7027
+i"Data.h"
+
+N/Users/WHG/Desktop/Tube/src/Drawer.h
+c000000004EE1F9AF000000000000021F
+t1323432367
+s543
+i<Cocoa/Cocoa.h>
+i<OpenGL/OpenGL.h>
+i<GLUT/GLUT.h>
+i"Shader.h"
+i"Font.h"
+i"Data.h"
+
+N/Users/WHG/Desktop/Tube/src/Drawer.m
+c000000004EE2081C0000000000000C29
+t1323436060
+s3113
+i"Drawer.h"
+
+N/Users/WHG/Desktop/Tube/src/Font.h
+c000000004EC7FE5C0000000000000176
+t1321729628
+s374
+i<Cocoa/Cocoa.h>
+i<OpenGL/OpenGL.h>
+
+N/Users/WHG/Desktop/Tube/src/Font.m
+c000000004ECA9D5200000000000022DC
+t1321901394
+s8924
+i"Font.h"
+
 N/Users/WHG/Desktop/Tube/src/OpenGLView.h
-c000000004EC7FDC200000000000001FD
-t1321729474
-s509
+c000000004EE161C000000000000001FC
+t1323393472
+s508
 i<Cocoa/Cocoa.h>
 i<CoreVideo/CoreVideo.h>
 i<OpenGL/OpenGL.h>
 i<GLUT/GLUT.h>
 i<math.h>
-i"Contstants.h"
+i"Constants.h"
 i"Drawer.h"
 
 N/Users/WHG/Desktop/Tube/src/OpenGLView.m
-c000000004ECAF4FE0000000000000E08
-t1321923838
-s3592
+c000000004EE207560000000000000EC4
+t1323435862
+s3780
 i"OpenGLView.h"
+
+N/Users/WHG/Desktop/Tube/src/Shader.h
+c000000004EE161B70000000000000244
+t1323393463
+s580
+i<Cocoa/Cocoa.h>
+i<OpenGL/OpenGL.h>
+i"Constants.h"
+
+N/Users/WHG/Desktop/Tube/src/Shader.m
+c000000004EE1E10B0000000000000CB1
+t1323426059
+s3249
+i"Shader.h"
 
 N/Users/WHG/Desktop/Tube/src/Tube_Prefix.pch
 c000000004EB85AAC000000000000008B
@@ -454,7 +513,7 @@ s1002
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies345085056#345085056#0(246"[WARN]warning: no rule to process file '$(PROJECT_DIR)/build/Debug/s.frag' of type sourcecode.glsl for architecture x86_64[WARN]warning: no rule to process file '$(PROJECT_DIR)/build/Debug/s.vert' of type sourcecode.glsl for architecture x86_642(22@116"warning: no rule to process file '$(PROJECT_DIR)/build/Debug/s.frag' of type sourcecode.glsl for architecture x86_64345085056#18446744073709551615#0#0(1@0"0(22@116"warning: no rule to process file '$(PROJECT_DIR)/build/Debug/s.vert' of type sourcecode.glsl for architecture x86_64345085056#18446744073709551615#0#0(1@0"0(0#1#0"4300882208#0"0#
+lSLF07#2@18"Check dependencies345128862#345128862#0(246"[WARN]warning: no rule to process file '$(PROJECT_DIR)/build/Debug/s.frag' of type sourcecode.glsl for architecture x86_64[WARN]warning: no rule to process file '$(PROJECT_DIR)/build/Debug/s.vert' of type sourcecode.glsl for architecture x86_642(22@116"warning: no rule to process file '$(PROJECT_DIR)/build/Debug/s.frag' of type sourcecode.glsl for architecture x86_64345128862#18446744073709551615#0#0(1@0"0(22@116"warning: no rule to process file '$(PROJECT_DIR)/build/Debug/s.vert' of type sourcecode.glsl for architecture x86_64345128862#18446744073709551615#0#0(1@0"0(0#1#0"4300882208#0"0#
 
 CCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Data.o /Users/WHG/Code/ObjC/Tube/Data.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s343622829.749520
@@ -483,6 +542,19 @@ xcom.apple.compilers.gcc.4_2
 o/Users/WHG/Desktop/Tube/Data.m: In function '-[Data initWithFilename:]':
 o/Users/WHG/Desktop/Tube/Data.m:134: warning: format '%i' expects type 'int', but argument 2 has type 'long unsigned int'
 lSLF07#2@38"Compile /Users/WHG/Desktop/Tube/Data.m345084881#345084881#0(194"/Users/WHG/Desktop/Tube/Data.m: In function '-[Data initWithFilename:]':/Users/WHG/Desktop/Tube/Data.m:134: warning: format '%i' expects type 'int', but argument 2 has type 'long unsigned int'1(22@75"Format '%i' expects type 'int', but argument 2 has type 'long unsigned int'345084881#73#121#0(6@30"/Users/WHG/Desktop/Tube/Data.m345084862#134#0#134#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#30"/Users/WHG/Desktop/Tube/Data.m4300882208#1225"    cd /Users/WHG/Desktop/Tube    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-generated-files.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-own-target-headers.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-all-target-headers.hmap -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-project-headers.hmap -F/Users/WHG/Desktop/Tube/build/Debug -I/Users/WHG/Desktop/Tube/build/Debug/include -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources/x86_64 -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources -include /var/folders/iZ/iZM13BqrE6GqOav1wjlcUE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tube_Prefix-ckutjcoakcvwybgcptsdzketywho/Tube_Prefix.pch -c /Users/WHG/Desktop/Tube/Data.m -o /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Data.o0#
+
+CCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Data.o /Users/WHG/Desktop/Tube/src/Data.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s345128728.112434
+e345128728.636406
+r1
+xCompileC
+xbuild/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Data.o
+x/Users/WHG/Desktop/Tube/src/Data.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/WHG/Desktop/Tube/src/Data.m345128728#345128728#0(0"0(0#0#34"/Users/WHG/Desktop/Tube/src/Data.m4300882208#1229"    cd /Users/WHG/Desktop/Tube    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-generated-files.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-own-target-headers.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-all-target-headers.hmap -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-project-headers.hmap -F/Users/WHG/Desktop/Tube/build/Debug -I/Users/WHG/Desktop/Tube/build/Debug/include -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources/x86_64 -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources -include /var/folders/iZ/iZM13BqrE6GqOav1wjlcUE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tube_Prefix-ckutjcoakcvwybgcptsdzketywho/Tube_Prefix.pch -c /Users/WHG/Desktop/Tube/src/Data.m -o /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Data.o0#
 
 CCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Drawer.o /Users/WHG/Code/ObjC/Tube/Drawer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s343623012.967037
@@ -514,6 +586,21 @@ o/Users/WHG/Desktop/Tube/Drawer.m: In function '-[Drawer draw:]':
 o/Users/WHG/Desktop/Tube/Drawer.m:135: warning: unused variable 'fps'
 lSLF07#2@40"Compile /Users/WHG/Desktop/Tube/Drawer.m345084959#345084959#0(134"/Users/WHG/Desktop/Tube/Drawer.m: In function '-[Drawer draw:]':/Users/WHG/Desktop/Tube/Drawer.m:135: warning: unused variable 'fps'1(22@21"Unused variable 'fps'345084959#65#69#0(6@32"/Users/WHG/Desktop/Tube/Drawer.m345084959#135#0#135#0#19"unused variable '*'0(0#0#32"/Users/WHG/Desktop/Tube/Drawer.m4300882208#1229"    cd /Users/WHG/Desktop/Tube    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-generated-files.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-own-target-headers.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-all-target-headers.hmap -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-project-headers.hmap -F/Users/WHG/Desktop/Tube/build/Debug -I/Users/WHG/Desktop/Tube/build/Debug/include -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources/x86_64 -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources -include /var/folders/iZ/iZM13BqrE6GqOav1wjlcUE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tube_Prefix-ckutjcoakcvwybgcptsdzketywho/Tube_Prefix.pch -c /Users/WHG/Desktop/Tube/Drawer.m -o /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Drawer.o0#
 
+CCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Drawer.o /Users/WHG/Desktop/Tube/src/Drawer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s345128862.378727
+e345128862.872411
+r1
+xCompileC
+xbuild/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Drawer.o
+x/Users/WHG/Desktop/Tube/src/Drawer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/WHG/Desktop/Tube/src/Drawer.m: In function '-[Drawer draw:]':
+o/Users/WHG/Desktop/Tube/src/Drawer.m:123: warning: unused variable 'fps'
+lSLF07#2@44"Compile /Users/WHG/Desktop/Tube/src/Drawer.m345128862#345128862#0(142"/Users/WHG/Desktop/Tube/src/Drawer.m: In function '-[Drawer draw:]':/Users/WHG/Desktop/Tube/src/Drawer.m:123: warning: unused variable 'fps'1(22@21"Unused variable 'fps'345128862#69#73#0(6@36"/Users/WHG/Desktop/Tube/src/Drawer.m345128860#123#0#123#0#19"unused variable '*'0(0#0#36"/Users/WHG/Desktop/Tube/src/Drawer.m4300882208#1233"    cd /Users/WHG/Desktop/Tube    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-generated-files.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-own-target-headers.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-all-target-headers.hmap -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-project-headers.hmap -F/Users/WHG/Desktop/Tube/build/Debug -I/Users/WHG/Desktop/Tube/build/Debug/include -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources/x86_64 -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources -include /var/folders/iZ/iZM13BqrE6GqOav1wjlcUE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tube_Prefix-ckutjcoakcvwybgcptsdzketywho/Tube_Prefix.pch -c /Users/WHG/Desktop/Tube/src/Drawer.m -o /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Drawer.o0#
+
 CCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Font.o /Users/WHG/Code/ObjC/Tube/Font.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s343594196.068910
 e343594196.301257
@@ -539,6 +626,19 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@38"Compile /Users/WHG/Desktop/Tube/Font.m344859512#344859512#0(0"0(0#0#30"/Users/WHG/Desktop/Tube/Font.m4300882208#1225"    cd /Users/WHG/Desktop/Tube    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-generated-files.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-own-target-headers.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-all-target-headers.hmap -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-project-headers.hmap -F/Users/WHG/Desktop/Tube/build/Debug -I/Users/WHG/Desktop/Tube/build/Debug/include -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources/x86_64 -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources -include /var/folders/iZ/iZM13BqrE6GqOav1wjlcUE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tube_Prefix-ckutjcoakcvwybgcptsdzketywho/Tube_Prefix.pch -c /Users/WHG/Desktop/Tube/Font.m -o /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Font.o0#
+
+CCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Font.o /Users/WHG/Desktop/Tube/src/Font.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s345086437.607505
+e345086437.881758
+r1
+xCompileC
+xbuild/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Font.o
+x/Users/WHG/Desktop/Tube/src/Font.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/WHG/Desktop/Tube/src/Font.m345086437#345086437#0(0"0(0#0#34"/Users/WHG/Desktop/Tube/src/Font.m4300882208#1229"    cd /Users/WHG/Desktop/Tube    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-generated-files.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-own-target-headers.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-all-target-headers.hmap -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-project-headers.hmap -F/Users/WHG/Desktop/Tube/build/Debug -I/Users/WHG/Desktop/Tube/build/Debug/include -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources/x86_64 -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources -include /var/folders/iZ/iZM13BqrE6GqOav1wjlcUE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tube_Prefix-ckutjcoakcvwybgcptsdzketywho/Tube_Prefix.pch -c /Users/WHG/Desktop/Tube/src/Font.m -o /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Font.o0#
 
 CCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/OpenGLView.o /Users/WHG/Code/ObjC/Tube/OpenGLView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s343337373.195737
@@ -567,8 +667,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@50"Compile /Users/WHG/Code/ObjC/Tube/src/OpenGLView.m343622551#343622551#0(0"0(0#0#42"/Users/WHG/Code/ObjC/Tube/src/OpenGLView.m4300882208#1263"    cd /Users/WHG/Code/ObjC/Tube    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/WHG/Code/ObjC/Tube/build/Tube.build/Debug/Tube.build/Tube-generated-files.hmap -I/Users/WHG/Code/ObjC/Tube/build/Tube.build/Debug/Tube.build/Tube-own-target-headers.hmap -I/Users/WHG/Code/ObjC/Tube/build/Tube.build/Debug/Tube.build/Tube-all-target-headers.hmap -iquote /Users/WHG/Code/ObjC/Tube/build/Tube.build/Debug/Tube.build/Tube-project-headers.hmap -F/Users/WHG/Code/ObjC/Tube/build/Debug -I/Users/WHG/Code/ObjC/Tube/build/Debug/include -I/Users/WHG/Code/ObjC/Tube/build/Tube.build/Debug/Tube.build/DerivedSources/x86_64 -I/Users/WHG/Code/ObjC/Tube/build/Tube.build/Debug/Tube.build/DerivedSources -include /var/folders/iZ/iZM13BqrE6GqOav1wjlcUE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tube_Prefix-fssafaeyrvxyvzchpqrslygwqbbt/Tube_Prefix.pch -c /Users/WHG/Code/ObjC/Tube/src/OpenGLView.m -o /Users/WHG/Code/ObjC/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/OpenGLView.o0#
 
 CCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/OpenGLView.o /Users/WHG/Desktop/Tube/src/OpenGLView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s345067989.522613
-e345067990.133072
+s345128662.862103
+e345128663.333354
 r1
 xCompileC
 xbuild/Tube.build/Debug/Tube.build/Objects-normal/x86_64/OpenGLView.o
@@ -577,7 +677,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@48"Compile /Users/WHG/Desktop/Tube/src/OpenGLView.m345067989#345067990#0(0"0(0#0#40"/Users/WHG/Desktop/Tube/src/OpenGLView.m4300882208#1241"    cd /Users/WHG/Desktop/Tube    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-generated-files.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-own-target-headers.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-all-target-headers.hmap -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-project-headers.hmap -F/Users/WHG/Desktop/Tube/build/Debug -I/Users/WHG/Desktop/Tube/build/Debug/include -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources/x86_64 -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources -include /var/folders/iZ/iZM13BqrE6GqOav1wjlcUE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tube_Prefix-ckutjcoakcvwybgcptsdzketywho/Tube_Prefix.pch -c /Users/WHG/Desktop/Tube/src/OpenGLView.m -o /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/OpenGLView.o0#
+lSLF07#2@48"Compile /Users/WHG/Desktop/Tube/src/OpenGLView.m345128662#345128663#0(0"0(0#0#40"/Users/WHG/Desktop/Tube/src/OpenGLView.m4300882208#1241"    cd /Users/WHG/Desktop/Tube    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-generated-files.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-own-target-headers.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-all-target-headers.hmap -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-project-headers.hmap -F/Users/WHG/Desktop/Tube/build/Debug -I/Users/WHG/Desktop/Tube/build/Debug/include -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources/x86_64 -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources -include /var/folders/iZ/iZM13BqrE6GqOav1wjlcUE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tube_Prefix-ckutjcoakcvwybgcptsdzketywho/Tube_Prefix.pch -c /Users/WHG/Desktop/Tube/src/OpenGLView.m -o /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/OpenGLView.o0#
 
 CCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Shader.o /Users/WHG/Code/ObjC/Tube/Shader.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s343616606.492378
@@ -604,6 +704,19 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@40"Compile /Users/WHG/Desktop/Tube/Shader.m344859512#344859512#0(0"0(0#0#32"/Users/WHG/Desktop/Tube/Shader.m4300882208#1229"    cd /Users/WHG/Desktop/Tube    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-generated-files.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-own-target-headers.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-all-target-headers.hmap -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-project-headers.hmap -F/Users/WHG/Desktop/Tube/build/Debug -I/Users/WHG/Desktop/Tube/build/Debug/include -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources/x86_64 -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources -include /var/folders/iZ/iZM13BqrE6GqOav1wjlcUE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tube_Prefix-ckutjcoakcvwybgcptsdzketywho/Tube_Prefix.pch -c /Users/WHG/Desktop/Tube/Shader.m -o /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Shader.o0#
+
+CCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Shader.o /Users/WHG/Desktop/Tube/src/Shader.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s345124984.881505
+e345124985.103370
+r1
+xCompileC
+xbuild/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Shader.o
+x/Users/WHG/Desktop/Tube/src/Shader.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/WHG/Desktop/Tube/src/Shader.m345124984#345124985#0(0"0(0#0#36"/Users/WHG/Desktop/Tube/src/Shader.m4300882208#1233"    cd /Users/WHG/Desktop/Tube    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-generated-files.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-own-target-headers.hmap -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-all-target-headers.hmap -iquote /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Tube-project-headers.hmap -F/Users/WHG/Desktop/Tube/build/Debug -I/Users/WHG/Desktop/Tube/build/Debug/include -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources/x86_64 -I/Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/DerivedSources -include /var/folders/iZ/iZM13BqrE6GqOav1wjlcUE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tube_Prefix-ckutjcoakcvwybgcptsdzketywho/Tube_Prefix.pch -c /Users/WHG/Desktop/Tube/src/Shader.m -o /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Shader.o0#
 
 CCompileC build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/TubeAppDelegate.o /Users/WHG/Code/ObjC/Tube/TubeAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s343337372.912828
@@ -693,14 +806,14 @@ xx86_64
 lSLF07#2@71"Link /Users/WHG/Code/ObjC/Tube/build/Debug/Tube.app/Contents/MacOS/Tube343623013#343623013#0(0"0(0#0#0"4300882208#517"    cd /Users/WHG/Code/ObjC/Tube    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/WHG/Code/ObjC/Tube/build/Debug -F/Users/WHG/Code/ObjC/Tube/build/Debug -filelist /Users/WHG/Code/ObjC/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Tube.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -framework CoreVideo -framework GLUT -o /Users/WHG/Code/ObjC/Tube/build/Debug/Tube.app/Contents/MacOS/Tube0#
 
 CLd /Users/WHG/Desktop/Tube/build/Debug/Tube.app/Contents/MacOS/Tube normal x86_64
-s345084959.939597
-e345084959.981684
+s345128862.872704
+e345128862.915639
 r1
 xLd
 x/Users/WHG/Desktop/Tube/build/Debug/Tube.app/Contents/MacOS/Tube
 xnormal
 xx86_64
-lSLF07#2@69"Link /Users/WHG/Desktop/Tube/build/Debug/Tube.app/Contents/MacOS/Tube345084959#345084959#0(0"0(0#0#0"4300882208#507"    cd /Users/WHG/Desktop/Tube    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/WHG/Desktop/Tube/build/Debug -F/Users/WHG/Desktop/Tube/build/Debug -filelist /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Tube.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -framework CoreVideo -framework GLUT -o /Users/WHG/Desktop/Tube/build/Debug/Tube.app/Contents/MacOS/Tube0#
+lSLF07#2@69"Link /Users/WHG/Desktop/Tube/build/Debug/Tube.app/Contents/MacOS/Tube345128862#345128862#0(0"0(0#0#0"4300882208#507"    cd /Users/WHG/Desktop/Tube    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/WHG/Desktop/Tube/build/Debug -F/Users/WHG/Desktop/Tube/build/Debug -filelist /Users/WHG/Desktop/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Tube.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -framework CoreVideo -framework GLUT -o /Users/WHG/Desktop/Tube/build/Debug/Tube.app/Contents/MacOS/Tube0#
 
 CProcessInfoPlistFile /Users/WHG/Code/ObjC/Tube/build/Debug/Tube.app/Contents/Info.plist Tube-Info.plist
 s343588297.008895
@@ -781,10 +894,10 @@ x/Users/WHG/Code/ObjC/Tube/build/Debug/Tube.app
 lSLF07#2@52"Touch /Users/WHG/Code/ObjC/Tube/build/Debug/Tube.app343623013#343623013#0(0"0(0#0#0"4300882208#102"    cd /Users/WHG/Code/ObjC/Tube    /usr/bin/touch -c /Users/WHG/Code/ObjC/Tube/build/Debug/Tube.app0#
 
 CTouch /Users/WHG/Desktop/Tube/build/Debug/Tube.app
-s345084959.981779
-e345084959.984569
+s345128862.915732
+e345128862.918375
 r1
 xTouch
 x/Users/WHG/Desktop/Tube/build/Debug/Tube.app
-lSLF07#2@50"Touch /Users/WHG/Desktop/Tube/build/Debug/Tube.app345084959#345084959#0(0"0(0#0#0"4300882208#98"    cd /Users/WHG/Desktop/Tube    /usr/bin/touch -c /Users/WHG/Desktop/Tube/build/Debug/Tube.app0#
+lSLF07#2@50"Touch /Users/WHG/Desktop/Tube/build/Debug/Tube.app345128862#345128862#0(0"0(0#0#0"4300882208#98"    cd /Users/WHG/Desktop/Tube    /usr/bin/touch -c /Users/WHG/Desktop/Tube/build/Debug/Tube.app0#
 

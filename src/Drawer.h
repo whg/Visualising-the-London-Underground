@@ -36,4 +36,6 @@ enum {
 
 - (void) draw: (NSRect) bounds;
 
+- (void) restart;
+
 @end

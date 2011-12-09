@@ -12,17 +12,23 @@
 #import <Cocoa/Cocoa.h>
 #include <OpenGL/OpenGL.h>
 
-#include "Contstants.h"
+#include "Constants.h"
 
 GLfloat *vertices;
 GLfloat *vdata[NUM_VDATA];
 GLubyte	*cdata;
+GLfloat *starttimes;
 
 @interface Data : NSObject {
 	NSString *filename;
 	FILE *file;
 	unsigned long lineno;
 	unsigned long npoints;
+	
+	bool useProgressIndicator;
+	NSWindow* progressWindow;
+	NSProgressIndicator* progressIndicator;
+	NSTextField* percentageLabel;
 }
 
 @property (readwrite, assign) unsigned long lineno;
@@ -32,6 +38,10 @@ GLubyte	*cdata;
 - (void) lineColour: (int) line: (GLubyte*) writeto;
 
 - (void) getNextLine;
+- (void) removeExpired: (int) time;
 
+- (void) showProgress;
+- (void) closeProgress;
+- (void) updateProgress: (float) percentage;
 
 @end

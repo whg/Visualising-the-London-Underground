@@ -12,7 +12,7 @@
 #include <GLUT/GLUT.h>
 #include <math.h>
 
-#import "Contstants.h"
+#import "Constants.h"
 #import "Drawer.h"
 
 @interface OpenGLView : NSOpenGLView {
