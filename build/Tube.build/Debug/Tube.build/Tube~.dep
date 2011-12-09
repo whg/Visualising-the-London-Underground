@@ -1,0 +1,15 @@
+1a94380792448e87b6b98a0d1f5a76ca 34583e36e63bf5e65e1f1ede08242eda ffffffffffffffffffffffffffffffff 102 /Users/WHG/Code/ObjC/Tube/build/Debug/Tube.app
+284a04f43253d01316b59d0fbd32a3f6 84e2d886df4f29f53a6eb3a5a6f344fb ffffffffffffffffffffffffffffffff 36272 /Users/WHG/Code/ObjC/Tube/build/Debug/Tube.app/Contents/MacOS/Tube
+000000004ec9b5b4000000000002bc0a 01b39ec439f99d709fb194f699340032 ffffffffffffffffffffffffffffffff 34227 /Users/WHG/Code/ObjC/Tube/build/Debug/Tube.app/Contents/Resources/English.lproj/MainMenu.nib
+000000004eb85aac000000000000002d b78f7ab146d0050905d330519dad2dd2 ffffffffffffffffffffffffffffffff 92 /Users/WHG/Code/ObjC/Tube/build/Debug/Tube.app/Contents/Resources/English.lproj/InfoPlist.strings
+00000000000000000000000000000000 7dad52bef1a04ea7147ec6c4fdfcb1d4 ffffffffffffffffffffffffffffffff 8 /Users/WHG/Code/ObjC/Tube/build/Debug/Tube.app/Contents/PkgInfo
+00000000000000000000000000000000 7dad52bef1a04ea7147ec6c4fdfcb1d4 ffffffffffffffffffffffffffffffff 877 /Users/WHG/Code/ObjC/Tube/build/Debug/Tube.app/Contents/Info.plist
+731b468b3d0327ced20e7abcc451f3d1 11eb02b57624f95dad2e7330cea9d228 ffffffffffffffffffffffffffffffff 12728 /Users/WHG/Code/ObjC/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Font.o
+731b468b73c577a3d20e7abcc451dfaf 7b06e27f41bfe0cf6cd5eea6aecb7df1 ffffffffffffffffffffffffffffffff 25436 /Users/WHG/Code/ObjC/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Shader.o
+731b468b39d97ff3d20e7abcc4518bfb ec0f3c8301121f5ddedfe0597ea153ee ffffffffffffffffffffffffffffffff 17020 /Users/WHG/Code/ObjC/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/Drawer.o
+731b468b79ae7c8dd20e7abcc451cd6a 1dc6a4f7c562b6f33c604c8652f73754 ffffffffffffffffffffffffffffffff 26748 /Users/WHG/Code/ObjC/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/OpenGLView.o
+731b468b3835bf22d20e7abcc451c6dc c0753ac1bdf7d5c1e7ffd6fa3543afd8 ffffffffffffffffffffffffffffffff 4968 /Users/WHG/Code/ObjC/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/main.o
+000000000e7cf0c5000000000000016e 731b468b3835bf22d20e7abcc451c6ab ffffffffffffffffffffffffffffffff 54298384 /var/folders/iZ/iZM13BqrE6GqOav1wjlcUE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tube_Prefix-fssafaeyrvxyvzchpqrslygwqbbt/Tube_Prefix.pch.gch
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /var/folders/iZ/iZM13BqrE6GqOav1wjlcUE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tube_Prefix-ehjblfjpsdfezfawferclbraotkk/Tube_Prefix.pch.gch
+00000000000000000000000000000000 15d3428215ed08f5167c32bb72025587 ffffffffffffffffffffffffffffffff 0 /var/folders/iZ/iZM13BqrE6GqOav1wjlcUE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tube_Prefix-eavxakzzyaxctybzsutumyvxelxl/Tube_Prefix.pch.gch
+ea0f5b8728f28f7c75f2e45226fd7e36 9490c68b4407e950b5f5521d98424df7 ffffffffffffffffffffffffffffffff 4160 /Users/WHG/Code/ObjC/Tube/build/Tube.build/Debug/Tube.build/Objects-normal/x86_64/TubeAppDelegate.o
